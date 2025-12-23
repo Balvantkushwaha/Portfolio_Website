@@ -1,0 +1,146 @@
+.skills {
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: #64748b;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.category {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.categoryTitle {
+  font-size: 1.5rem;
+  color: #2563eb;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.skillsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.skillItem {
+  margin-bottom: 1rem;
+}
+
+.skillHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.skillName {
+  font-weight: 600;
+  color: #334155;
+}
+
+.skillLevel {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.progressBar {
+  height: 8px;
+  background-color: #e2e8f0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 1s ease-in-out;
+}
+
+.additionalSkills {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.additionalTitle {
+  font-size: 1.5rem;
+  color: #2563eb;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.skillTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skillTag {
+  background: #f1f5f9;
+  color: #475569;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.skillTag:hover {
+  background: #2563eb;
+  color: white;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 4rem 1rem;
+  }
+
+  .categories {
+    grid-template-columns: 1fr;
+  }
+
+  .skillTags {
+    justify-content: center;
+  }
+}

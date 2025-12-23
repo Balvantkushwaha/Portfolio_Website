@@ -1,0 +1,216 @@
+.projects {
+  padding: 6rem 2rem;
+  background-color: var(--bg-card);
+  color: var(--text-primary);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: #64748b;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.projectCard {
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+}
+
+.projectCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.projectCard.featured {
+  border: 2px solid #2563eb;
+  grid-column: span 2;
+}
+
+.projectImage {
+  height: 200px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+}
+
+.imagePlaceholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.projectContent {
+  padding: 1.5rem;
+}
+
+.projectHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.projectTitle {
+  font-size: 1.5rem;
+  color: #1e293b;
+  font-weight: 600;
+  margin: 0;
+}
+
+.featuredBadge {
+  background: #2563eb;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 2rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.projectDescription {
+  color: #64748b;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.techTag {
+  background: #f1f5f9;
+  color: #475569;
+  padding: 0.25rem 0.75rem;
+  border-radius: 2rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.projectLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.linkButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  background: #f8fafc;
+  color: #475569;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.3s;
+  border: 1px solid #e2e8f0;
+}
+
+.linkButton:hover {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.liveButton {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.liveButton:hover {
+  background: #1d4ed8;
+}
+
+.linkIcon {
+  font-size: 1rem;
+}
+
+.ctaSection {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.ctaText {
+  color: #64748b;
+  margin-bottom: 1.5rem;
+}
+
+.githubButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 2rem;
+  background: #1e293b;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.githubButton:hover {
+  background: #0f172a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.githubIcon {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 1024px) {
+  .projectCard.featured {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 4rem 1rem;
+  }
+
+  .projectGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .projectLinks {
+    flex-direction: column;
+  }
+
+  .linkButton {
+    justify-content: center;
+  }
+}
