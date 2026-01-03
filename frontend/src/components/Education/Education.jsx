@@ -6,10 +6,10 @@ const Education = () => {
     {
       id: 1,
       degree: 'Master of Science in Computer Science',
-      institution: 'Stanford University',
-      period: '2016 - 2018',
-      location: 'Stanford, CA',
-      gpa: '3.9/4.0',
+      institution: 'Oriental Institute of Science & Technology, Bhopal',
+      period: '2025 - Present',
+      location: 'Bhopal, MP, India',
+      gpa: 'N/A',
       description: 'Specialized in Artificial Intelligence and Machine Learning. Thesis on "Neural Networks for Computer Vision".',
       courses: [
         'Advanced Algorithms',
@@ -26,11 +26,11 @@ const Education = () => {
     },
     {
       id: 2,
-      degree: 'Bachelor of Technology in Computer Science',
-      institution: 'MIT',
-      period: '2012 - 2016',
-      location: 'Cambridge, MA',
-      gpa: '3.8/4.0',
+      degree: 'Bachelor of Science (B.Sc) in Computer Science',
+      institution: 'Maharaja Chhatrasal Bundelkhand University, Chhatarpur',
+      period: '2022 - 2025',
+      location: 'Chhatarpur, MP, India',
+      gpa: '6.9/10',
       description: 'Focused on Software Engineering and Web Technologies. President of Coding Club.',
       courses: [
         'Data Structures',

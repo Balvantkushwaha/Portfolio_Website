@@ -10,7 +10,7 @@
   --bg-primary: #ffffff;
   --bg-secondary: #f8fafc;
   --bg-tertiary: #f1f5f9;
-  --bg-card: #ffffff;
+  --bg-card: #f5f5f5;
   --bg-header: rgba(255, 255, 255, 0.95);
   
   /* Text Colors */
@@ -53,7 +53,7 @@
 [data-theme="dark"] {
   /* Colors */
   --primary-color: #3b82f6;
-  --primary-hover: #60a5fa;
+  --primary-hover: #95c5ff;
   --secondary-color: #94a3b8;
   --accent-color: #60a5fa;
   

@@ -1,6 +1,7 @@
 .education {
   padding: 6rem 2rem;
-  background-color: white;
+  padding-bottom: 0rem;
+  background-color:var(--bg-primary);
 }
 
 .container {
@@ -15,14 +16,14 @@
 
 .title {
   font-size: 2.5rem;
-  color: #1e293b;
+  color: var(--text-primary);
   margin-bottom: 0.5rem;
   font-weight: 700;
 }
 
 .subtitle {
   font-size: 1.125rem;
-  color: #64748b;
+  color: var(--text-secondary);
   max-width: 600px;
   margin: 0 auto;
 }
@@ -35,11 +36,11 @@
 
 .sectionTitle {
   font-size: 1.75rem;
-  color: #2563eb;
+  color: var(--primary-color);
   margin-bottom: 2rem;
   font-weight: 600;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #e2e8f0;
+  border-bottom: 2px solid var(--border-color)
 }
 
 .degreesList {
@@ -49,16 +50,16 @@
 }
 
 .degreeCard {
-  background: #f8fafc;
+  background:var(--bg-card);
   border-radius: 1rem;
   padding: 2rem;
   transition: transform 0.3s, box-shadow 0.3s;
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--border-color);
 }
 
 .degreeCard:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-md);
 }
 
 .degreeHeader {
@@ -72,13 +73,13 @@
 
 .degree {
   font-size: 1.25rem;
-  color: #1e293b;
+  color: var(--text-primary);
   margin: 0;
   font-weight: 600;
 }
 
 .institution {
-  color: #2563eb;
+  color: var(--primary-color);
   font-weight: 500;
   margin: 0.25rem 0 0 0;
 }
@@ -89,8 +90,8 @@
 
 .period {
   display: block;
-  background: #dbeafe;
-  color: #2563eb;
+  background: var(--bg-primary);
+  color: var(--primary-color);
   padding: 0.25rem 1rem;
   border-radius: 2rem;
   font-size: 0.875rem;
@@ -100,17 +101,17 @@
 
 .gpa {
   display: block;
-  color: #64748b;
+  color: var(--text-secondary);
   font-size: 0.875rem;
   font-weight: 500;
 }
 
 .degreeDetails {
-  color: #475569;
+  color:var(--text-secondary);
 }
 
 .location {
-  color: #64748b;
+  color: var(--text-secondary);
   font-size: 0.875rem;
   margin-bottom: 1rem;
 }
@@ -126,7 +127,7 @@
 
 .coursesTitle {
   font-size: 1rem;
-  color: #1e293b;
+  color: var(--text-primary);
   margin-bottom: 0.75rem;
   font-weight: 600;
 }
@@ -156,7 +157,7 @@
 
 .achievementsTitle {
   font-size: 1rem;
-  color: #1e293b;
+  color: var(--text-primary);
   margin-bottom: 0.75rem;
   font-weight: 600;
 }
@@ -172,7 +173,7 @@
   align-items: flex-start;
   gap: 0.75rem;
   margin-bottom: 0.5rem;
-  color: #475569;
+  color: var(--text-secondary);
   line-height: 1.6;
 }
 
@@ -192,19 +193,19 @@
 }
 
 .certCard {
-  background: white;
+  background:var(--bg-card);
   border-radius: 1rem;
   padding: 1.5rem;
   display: flex;
   align-items: center;
   gap: 1rem;
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--border-color);
   transition: all 0.3s;
 }
 
 .certCard:hover {
   transform: translateX(8px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-md);
 }
 
 .certIcon {
@@ -218,13 +219,13 @@
 
 .certName {
   font-size: 1rem;
-  color: #1e293b;
+  color:var(--text-primary);
   margin: 0 0 0.25rem 0;
   font-weight: 600;
 }
 
 .certIssuer {
-  color: #64748b;
+  color: var(--text-muted);
   font-size: 0.875rem;
   margin: 0 0 0.5rem 0;
 }
@@ -237,8 +238,8 @@
 }
 
 .certDate {
-  background: #f1f5f9;
-  color: #475569;
+  background: var(--bg-primary);
+  color: var(--text-secondary);
   padding: 0.125rem 0.75rem;
   border-radius: 2rem;
   font-size: 0.75rem;
@@ -246,7 +247,7 @@
 }
 
 .certId {
-  color: #94a3b8;
+  color:var(--text-muted);
   font-size: 0.75rem;
   font-family: monospace;
 }

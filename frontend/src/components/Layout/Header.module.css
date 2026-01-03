@@ -49,7 +49,7 @@
 
 .navLink:hover {
   /* color: #2563eb; */
-  color: var(--text-primary);
+  color: var(--primary-hover);
 }
 
 .navLink::after {

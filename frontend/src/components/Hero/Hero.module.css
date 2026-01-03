@@ -4,7 +4,7 @@
   align-items: center;
   padding: 6rem 2rem 2rem;
   /* background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); */
-  background-color: var(--bg-header);
+  background-color: var(--bg-primary);
 }
 
 .container {

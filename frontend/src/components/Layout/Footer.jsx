@@ -1,14 +1,15 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
-    { name: 'GitHub', url: 'https://github.com/username', icon: '🐙' },
-    { name: 'LinkedIn', url: 'https://linkedin.com/in/username', icon: '💼' },
-    { name: 'Twitter', url: 'https://twitter.com/username', icon: '🐦' },
-    { name: 'Email', url: 'mailto:hello@example.com', icon: '✉️' },
+    { name: 'GitHub', url: 'https://github.com/username', icon:  <FaGithub /> },
+    { name: 'LinkedIn', url: 'https://linkedin.com/in/username', icon:  <FaLinkedin /> },
+    { name: 'Twitter', url: 'https://twitter.com/username', icon: <FaTwitter /> },
+    { name : 'Instagram', url: 'https://instagram.com/username', icon:  <FaInstagram /> }
   ];
 
   return (
@@ -16,7 +17,7 @@ const Footer = () => {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.brand}>
-            <a href="#hero" className={styles.logo}>Portfolio</a>
+            <a href="#hero" className={styles.logo}>BVK Tech</a>
             <p className={styles.tagline}>Building digital experiences with code</p>
           </div>
           
@@ -38,7 +39,7 @@ const Footer = () => {
         
         <div className={styles.bottom}>
           <p className={styles.copyright}>
-            © {currentYear} Your Name. All rights reserved.
+            © {currentYear} BVK Tech. All rights reserved.
           </p>
           <p className={styles.madeWith}>
             Built with React & ❤️

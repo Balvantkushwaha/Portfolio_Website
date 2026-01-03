@@ -8,6 +8,7 @@ import Experience from '../Experience/Experience';
 import Education from '../Education/Education';
 import Contact from '../Contact/Contact';
 
+
 const HomePage = () => {
   return (
     <Layout>

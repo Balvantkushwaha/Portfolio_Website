@@ -37,7 +37,7 @@ const About = () => {
 
             <div className={styles.stats}>
               <div className={styles.statItem}>
-                <span className={styles.statNumber}>20+</span>
+                <span className={styles.statNumber}>5+</span>
                 <span className={styles.statLabel}>Projects Built</span>
               </div>
               <div className={styles.statItem}>

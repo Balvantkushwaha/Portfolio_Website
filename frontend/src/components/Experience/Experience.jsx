@@ -1,50 +1,33 @@
-import React from 'react';
-import styles from './Experience.module.css';
+import React from "react";
+import styles from "./Experience.module.css";
 
 const Experience = () => {
   const experiences = [
     {
       id: 1,
-      company: 'Tech Innovations Inc.',
-      position: 'Senior Software Engineer',
-      period: '2021 - Present',
-      location: 'San Francisco, CA',
-      description: 'Led development of cloud-native applications, improved system performance by 40%, mentored 3 junior developers.',
+      company: "ICOESS",
+      position: "Full Stack Developer",
+      period: "July 2025 - Present",
+      location: "India",
+      description:
+        "Working as a Full Stack Developer at ICOESS, responsible for end-to-end development of scalable web applications including frontend interfaces, backend APIs, and database design for e-commerce and service-based platforms.",
       achievements: [
-        'Architected microservices handling 1M+ daily requests',
-        'Reduced API response time from 2s to 200ms',
-        'Implemented CI/CD pipeline reducing deployment time by 70%'
+        "Developed complete E-Grocery and e-commerce modules including frontend UI, backend business logic, and database schemas",
+        "Built RESTful APIs using Node.js and Express for authentication, product management, orders, and payments",
+        "Designed and optimized MongoDB schemas ensuring data integrity and performance",
+        "Implemented role-based access control for buyer, seller, and admin dashboards",
       ],
-      technologies: ['React', 'Node.js', 'AWS', 'Docker', 'Kubernetes']
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT",
+      ],
     },
-    {
-      id: 2,
-      company: 'Digital Solutions LLC',
-      position: 'Full Stack Developer',
-      period: '2019 - 2021',
-      location: 'Remote',
-      description: 'Developed full-stack applications for various clients, focusing on e-commerce and SaaS platforms.',
-      achievements: [
-        'Built scalable e-commerce platform serving 50K+ users',
-        'Integrated payment gateways increasing conversion by 25%',
-        'Developed real-time chat system with WebSocket'
-      ],
-      technologies: ['JavaScript', 'Python', 'MongoDB', 'Express', 'Socket.io']
-    },
-    {
-      id: 3,
-      company: 'Startup Co.',
-      position: 'Junior Developer',
-      period: '2018 - 2019',
-      location: 'New York, NY',
-      description: 'Contributed to frontend development, implemented new features, and participated in code reviews.',
-      achievements: [
-        'Built responsive UI components used across platform',
-        'Reduced bundle size by 30% through code splitting',
-        'Implemented automated testing increasing coverage to 85%'
-      ],
-      technologies: ['React', 'Redux', 'Jest', 'Webpack']
-    }
   ];
 
   return (
@@ -52,7 +35,9 @@ const Experience = () => {
       <div className={styles.container}>
         <div className={styles.header}>
           <h2 className={styles.title}>Work Experience</h2>
-          <p className={styles.subtitle}>Professional journey & career milestones</p>
+          <p className={styles.subtitle}>
+            Professional journey & career milestones
+          </p>
         </div>
 
         <div className={styles.timeline}>
@@ -80,7 +65,9 @@ const Experience = () => {
                 <p className={styles.description}>{exp.description}</p>
 
                 <div className={styles.achievements}>
-                  <h4 className={styles.achievementsTitle}>Key Achievements:</h4>
+                  <h4 className={styles.achievementsTitle}>
+                    Key Achievements:
+                  </h4>
                   <ul className={styles.achievementsList}>
                     {exp.achievements.map((achievement, idx) => (
                       <li key={idx} className={styles.achievementItem}>
@@ -93,7 +80,9 @@ const Experience = () => {
 
                 <div className={styles.technologies}>
                   {exp.technologies.map((tech) => (
-                    <span key={tech} className={styles.techTag}>{tech}</span>
+                    <span key={tech} className={styles.techTag}>
+                      {tech}
+                    </span>
                   ))}
                 </div>
               </div>

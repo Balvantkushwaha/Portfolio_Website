@@ -1,7 +1,9 @@
 .about {
   padding: 1rem;
   /* background-color: white; */
-   background-color: var(--bg-header);
+  padding: 6rem 2rem;  
+  padding-bottom: 0rem;
+  background-color: var(--bg-primary);
 }
 
 .container {
@@ -29,7 +31,7 @@
 .subtitle {
   font-size: 1.125rem;
   /* color: #64748b; */
-    color:var(--text-primary);
+  color:var(--text-secondary);
   max-width: 600px;
   margin: 0px;
   text-align: center;
@@ -40,12 +42,13 @@
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
+  padding: 2rem;
 }
 
 .text {
   font-size: 1.125rem;
   line-height: 1.8;
-  color: #475569;
+  color: var(--text-secondary);
 }
 
 .text p {
@@ -62,7 +65,7 @@
 .statItem {
   text-align: center;
   padding: 1.5rem;
-  background: #f8fafc;
+  background:var(--bg-card);
   border-radius: 0.75rem;
   min-width: 120px;
 }
@@ -71,13 +74,13 @@
   display: block;
   font-size: 2rem;
   font-weight: 700;
-  color: #2563eb;
+  color:var(--primary-color);
   margin-bottom: 0.5rem;
 }
 
 .statLabel {
   font-size: 0.875rem;
-  color: #64748b;
+  color: var(--secondary-color);
   font-weight: 500;
 }
 
@@ -134,6 +137,6 @@
   }
 
   .statItem {
-    width: 100%;
+    width: 50%;
   }
 }
