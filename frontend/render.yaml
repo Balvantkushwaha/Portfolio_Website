@@ -1,0 +1,13 @@
+# Exported from Render on 2026-01-03T16:52:19Z
+version: "1"
+projects:
+- name: My project
+  environments:
+  - name: Production
+    services:
+    - type: web
+      name: BVK Tech
+      runtime: static
+      repo: https://github.com/Balvantkushwaha/Portfolio_Website
+      staticPublishPath: .
+      autoDeployTrigger: commit
