@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./About.module.css";
+import profileImage from '../../assets/images/profile3.jpg';
 
 const About = () => {
   return (
@@ -22,18 +23,6 @@ const About = () => {
               thrive on solving complex problems and continuously learning new
               technologies to stay at the forefront of web development.
             </p>
-            <p>
-              Through coursework and personal projects, I've developed strong
-              foundations in data structures, algorithms, and software
-              engineering principles. I'm particularly interested in web
-              development and enjoy building projects that solve real-world
-              problems.
-            </p>
-            <p>
-              When I'm not coding, you can find me contributing to open-source
-              projects, participating in hackathons, or exploring new
-              technologies through online courses and tutorials.
-            </p>
 
             <div className={styles.stats}>
               <div className={styles.statItem}>
@@ -45,7 +34,7 @@ const About = () => {
                 <span className={styles.statLabel}>Hackathons</span>
               </div>
               <div className={styles.statItem}>
-                <span className={styles.statNumber}>500+</span>
+                <span className={styles.statNumber}>100+</span>
                 <span className={styles.statLabel}>GitHub Contributions</span>
               </div>
             </div>
@@ -55,7 +44,12 @@ const About = () => {
             <div className={styles.image}>
               {/* Add student image */}
               <div className={styles.studentImage}>
-                <span>🎓</span>
+                {/* <span>🎓</span> */}
+                <img
+                  src={profileImage}   // 👉 put your image path here
+                  alt="Student"
+                  className={styles.studentImg}
+                />
               </div>
             </div>
           </div>
