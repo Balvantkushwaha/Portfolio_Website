@@ -8,7 +8,7 @@ const Skills = () => {
       skills: [
         { name: 'React', level: 90, color: '#61DAFB' },
         { name: 'TypeScript', level: 85, color: '#3178C6' },
-        { name: 'Next.js', level: 80, color: '#000000' },
+        // { name: 'Next.js', level: 80, color: '#000000' },
         { name: 'HTML/CSS', level: 95, color: '#E34F26' },
         { name: 'Tailwind CSS', level: 85, color: '#06B6D4' },
       ]
@@ -19,7 +19,7 @@ const Skills = () => {
         { name: 'Node.js', level: 88, color: '#339933' },
         { name: 'Express', level: 85, color: '#000000' },
         { name: 'Python', level: 80, color: '#3776AB' },
-        { name: 'PostgreSQL', level: 82, color: '#4169E1' },
+        // { name: 'PostgreSQL', level: 82, color: '#4169E1' },
         { name: 'MongoDB', level: 78, color: '#47A248' },
       ]
     },
@@ -27,10 +27,10 @@ const Skills = () => {
       category: 'Tools & DevOps',
       skills: [
         { name: 'Git/GitHub', level: 90, color: '#F05032' },
-        { name: 'Docker', level: 75, color: '#2496ED' },
-        { name: 'AWS', level: 70, color: '#FF9900' },
-        { name: 'CI/CD', level: 80, color: '#0078D7' },
-        { name: 'Testing', level: 85, color: '#E4405F' },
+        // { name: 'Docker', level: 75, color: '#2496ED' },
+        // { name: 'AWS', level: 70, color: '#FF9900' },
+        // { name: 'CI/CD', level: 80, color: '#0078D7' },
+        // { name: 'Testing', level: 85, color: '#E4405F' },
       ]
     }
   ];

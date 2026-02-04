@@ -68,14 +68,8 @@ const Education = () => {
       issuer: 'Meta',
       date: '2020',
       credentialId: 'REACT-45678'
-    },
-    {
-      id: 4,
-      name: 'Docker Certified Associate',
-      issuer: 'Docker Inc.',
-      date: '2019',
-      credentialId: 'DOCKER-23456'
     }
+    
   ];
 
   return (
